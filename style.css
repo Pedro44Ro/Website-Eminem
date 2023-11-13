@@ -113,9 +113,15 @@ header {
   margin: 1%;
 }
 
+.centro{
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: flex;
+}
+
 .img1 {
   border: 2px solid black;
-  margin-left: 10%;
   margin-top: 0.7%;
   width: 80%;
   border-radius: 1%;
@@ -211,34 +217,24 @@ footer {
 @media only screen and (max-width: 1000px) {
 
   .cont {
-    margin-top: 2%;
-    font-size: 1.1rem;
-    text-indent: 15px;
+    font-size: 1.15rem;
     margin-left: 1.4%;
     margin-right: 1.4%;
     padding: 4px 0px 10px 0px;
   }
 
   .lado{
-    display: flex;
     flex-direction: column;
   }
 
   .img2{
-    border: 2px solid black;
-    margin-left: 10%;
     margin-top: 0.7%;
     width: 75%;
-    border-radius: 1%;
+    margin-left: 12%;
   }
 
   .alinhar-horizontal{
-    display: flex;
-    gap: 9px;
-    padding: 8px;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    gap: 12px;
     padding: 8px 0px 14px 0px;
   }
   
@@ -249,14 +245,10 @@ footer {
 
   .sociais2 {
     width: 64px;
-    border-radius: 20%;
-    border: 2px solid black;
   }
   
   .sociais2a {
     width: 64px;
-    border-radius: 50%;
-    border: 2px solid black;
   }
   
   .sociais2b {

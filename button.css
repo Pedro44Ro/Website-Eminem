@@ -43,11 +43,14 @@
   padding: 20px;
 }
 
-@media screen and (max-height: 450px) {
+@media only screen and (max-width: 1000px) {
+  .sidenav a{
+    font-size: 2.1rem;
+  }
+}
+
+@media only screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
-  }
-  .sidenav a {
-    font-size: 18px;
   }
 }
