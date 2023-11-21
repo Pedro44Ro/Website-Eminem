@@ -45,7 +45,8 @@
 
 @media only screen and (max-width: 980px) {
   .sidenav a {
-    font-size: 2.1rem;
+    font-size: 2.5rem;
+    padding: 15px 8px 15px 26px;
   }
 
   .foto-menu {
