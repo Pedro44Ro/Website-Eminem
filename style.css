@@ -229,11 +229,27 @@ footer {
 .lista p:hover {
   background-color: white;
   padding: 12px 13px 12px 0px;
-  border-radius: 5.5%;
+  border-radius: 4%;
   border: 2px solid black;
   color: black;
   transition: 0.4s;
   width: fit-content;
+}
+
+.alinhar-galeria {
+  display: flex;
+  gap: 15px;
+  padding: 11px 0px 16px 0px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img4 {
+  border: 2px solid black;
+  width: 470px;
+  height: 310px;
+  border-radius: 1%;
 }
 
 @media only screen and (max-width: 980px) {
@@ -292,5 +308,10 @@ footer {
 
   .auto {
     font-size: 1.7rem;
+  }
+
+  .img4 {
+    width: 780px;
+    height: 550px;
   }
 }

@@ -1,8 +1,8 @@
 function openNav() {
   if (window.screen.width <= 980) {
-    document.querySelector("#mySidenav").style.width = "50%";
+    document.querySelector("#mySidenav").style.width = "60%";
   } else {
-    document.querySelector("#mySidenav").style.width = "225px";
+    document.querySelector("#mySidenav").style.width = "240px";
   }
 }
 
