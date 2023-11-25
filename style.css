@@ -231,7 +231,7 @@ footer {
 .lista p {
   border: 2px solid rgb(58, 55, 55);
   padding: 12px 13px 12px 0px;
-  border-radius: 4%;
+  border-radius: 11px;
   transition: 0.4s;
   width: fit-content;
 }
@@ -239,7 +239,7 @@ footer {
 .lista p:hover {
   background-color: white;
   padding: 12px 13px 12px 0px;
-  border-radius: 4%;
+  border-radius: 11px;
   border: 2px solid black;
   color: black;
   transition: 0.4s;
@@ -394,7 +394,13 @@ label {
   }
 
   .lista p {
-    width: 99%;
+    width: 100%;
+    padding: 12px 13px 12px 5px;
+  }
+
+  .lista p:hover {
+    width: 100%;
+    padding: 12px 13px 12px 5px;
   }
 
   label {
