@@ -393,7 +393,19 @@ label {
     font-size: 1.4rem;
   }
 
+  .lista p {
+    width: 99%;
+  }
+
+  label {
+    font-size: 1.1rem;
+  }
+
   .formu {
+    font-size: 1.5rem;
+  }
+
+  .gen {
     font-size: 1.5rem;
   }
 }
