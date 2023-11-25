@@ -231,6 +231,9 @@ footer {
 .lista p {
   border: 2px solid rgb(58, 55, 55);
   padding: 12px 13px 12px 0px;
+  border-radius: 4%;
+  transition: 0.4s;
+  width: fit-content;
 }
 
 .lista p:hover {
@@ -293,10 +296,6 @@ label {
   font-size: 0.8rem;
   padding: 8px;
   width: 99%;
-}
-
-.formu input::placeholder {
-  font-size: 1rem;
 }
 
 .envio input {
@@ -383,5 +382,18 @@ label {
 
   header {
     min-height: 4%;
+  }
+
+  .formu input {
+    font-size: 1.1rem;
+    padding: 11px;
+  }
+
+  .envio input {
+    font-size: 1.4rem;
+  }
+
+  .formu {
+    font-size: 1.5rem;
   }
 }
