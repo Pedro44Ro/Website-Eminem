@@ -9,7 +9,6 @@
   overflow-x: hidden;
   padding-top: 65px;
   transition: 0.5s;
-  opacity: 0.97;
 }
 
 .sidenav a {
@@ -52,6 +51,14 @@
   .foto-menu {
     width: 85px;
     height: 85px;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    font-size: 70px;
+    margin-left: 50px;
   }
 }
 
