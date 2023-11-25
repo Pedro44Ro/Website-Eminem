@@ -395,6 +395,7 @@ label {
 
   .lista p {
     width: 100%;
+    gap: 7px;
     padding: 12px 13px 12px 5px;
   }
 
